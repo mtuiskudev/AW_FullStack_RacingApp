@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AW_FullStack_Checkpoint_RacingApp", "AW_FullStack_Checkpoint_RacingApp\AW_FullStack_Checkpoint_RacingApp.csproj", "{F8A03441-B678-4591-B777-94B69BD6CDCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestsRacing", "UnitTestsRacing\UnitTestsRacing.csproj", "{78BDC1F3-E466-4E95-B2F8-D837DC8540CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8A03441-B678-4591-B777-94B69BD6CDCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8A03441-B678-4591-B777-94B69BD6CDCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8A03441-B678-4591-B777-94B69BD6CDCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8A03441-B678-4591-B777-94B69BD6CDCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78BDC1F3-E466-4E95-B2F8-D837DC8540CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78BDC1F3-E466-4E95-B2F8-D837DC8540CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78BDC1F3-E466-4E95-B2F8-D837DC8540CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78BDC1F3-E466-4E95-B2F8-D837DC8540CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50DC0EF2-557F-467A-B296-914C72F7DA57}
+	EndGlobalSection
+EndGlobal

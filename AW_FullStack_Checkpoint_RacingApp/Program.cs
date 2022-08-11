@@ -61,7 +61,7 @@ namespace AW_FullStack_Checkpoint_RacingApp
             Console.WriteLine("Our podium places are as follows, congratulations!");
             foreach(var t in top3)
             {
-               t.PrintRacer();
+               Console.WriteLine(t.PrintRacer());
             }
             
 

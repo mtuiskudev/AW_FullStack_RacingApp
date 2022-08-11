@@ -22,7 +22,7 @@ namespace UnitTestsRacing
             Car car = new Car("test2", "test2", new Driver("testdriver2"));
 
 
-            Assert.AreEqual("testdriver", car.PrintRacer());
+            Assert.AreEqual("testdriver2", car.PrintRacer());
         }
 
 
@@ -40,9 +40,8 @@ namespace UnitTestsRacing
         {
             Driver testDriver = new Driver("testDriver");
 
-            Assert.AreEqual("Radio Ok", testDriver.RadioReport());
+            Assert.AreEqual("Radio Ok", testDriver.RadioTest());
         }
-
 
     }
 }

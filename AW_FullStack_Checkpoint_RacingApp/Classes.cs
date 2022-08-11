@@ -21,9 +21,9 @@ namespace AW_FullStack_Checkpoint_RacingApp
             this.Racer = driver;
         }
 
-        internal void PrintRacer()
+        internal string PrintRacer()
         {
-            Console.WriteLine(this.Racer.Name);
+            return (this.Racer.Name + " " + this.TeamName);
         }
 
         public bool IsOk()

@@ -20,9 +20,9 @@ namespace UnitTestsRacing
         public void Test2()
         {
             Car car = new Car("test2", "test2", new Driver("testdriver2"));
+            string result = car.PrintRacer();
 
-
-            Assert.AreEqual("testdriver2", car.PrintRacer());
+            Assert.AreEqual("testdriver2", result);
         }
 
 

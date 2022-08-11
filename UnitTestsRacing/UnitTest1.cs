@@ -43,5 +43,14 @@ namespace UnitTestsRacing
             Assert.AreEqual("Radio Ok", testDriver.RadioTest());
         }
 
+        [Test]
+        public void Test5()
+        {
+            Car car = new Car("test5", "test5", new Driver("testdriver5"));
+
+            car.CarStatus = "Not OK";
+
+            Assert.AreEqual(false, car.IsOk());
+        }
     }
 }
